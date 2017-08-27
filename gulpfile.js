@@ -8,7 +8,8 @@ var gulp = require("gulp"),
   browserSync = require("browser-sync").create(),
   argv = require("minimist")(process.argv.slice(2)),
   sass = require("gulp-sass"),
-  postcss = require("gulp-postcss");
+  postcss = require("gulp-postcss"),
+  ghPages = require('gulp-gh-pages');
 (autoprefixer = require("autoprefixer")), (chalk = require("chalk"));
 
 /**
@@ -115,6 +116,11 @@ gulp.task("pl-copy:styleguide-css", function() {
       })
     )
     .pipe(browserSync.stream());
+});
+
+gulp.task('deploy', function() {
+  return gulp.src(normalizePath(paths().public.root) + "/**/*")
+    .pipe(ghPages());
 });
 
 /******************************************************
