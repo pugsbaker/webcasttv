@@ -7,7 +7,6 @@
         "ThumbnailUrl": "http://fillmurray.com/301/168",
         "Title": "Darkingjung Barker: a lesson in closing the education gap",
         "Description": "Phillip Heath, Head of Barker College, Barker College",
-        "Cost": 20.95,
         "PlayUrl": "http://play.me",
         "Duration": 31.24,
         "Presenter": "Anthony England",
@@ -60,7 +59,6 @@
         "ThumbnailUrl": "http://fillmurray.com/341/278",
         "Title": "Clean Water for every child, benefits all",
         "Description": "Rez Haremi, EssentialNeed.org",
-        "Cost": 20.95,
         "PlayUrl": "http://play.me",
         "Duration": 31.24,
         "Presenter": "Anthony England",
@@ -113,7 +111,6 @@
         "ThumbnailUrl": "http://fillmurray.com/300/165",
         "Title": "Physical education: under prioritised and our children pay the price",
         "Description": "Prof. Richard Telford, AM, Lifestyle of our Kids (LOOK)",
-        "Cost": 20.95,
         "PlayUrl": "http://play.me",
         "Duration": 31.24,
         "Presenter": "Anthony England",
@@ -122,6 +119,7 @@
         "Status": "AddedToCart",
         "Type": "CatalogueItem",
         "IsInPlaylist": true,
+        "Cost": "",
         "Presenters": [
           {
             "id": "23235235",
@@ -142,7 +140,7 @@
           {
             "id": "42324",
             "MediaSiteId": "525235",
-            "Tag": "this is a tag",
+            "Tag": "free",
             "DomainId": "525235"
           }
         ],
@@ -150,13 +148,14 @@
           {
             "FieldDefinitionId": "42324",
             "MediaSiteId": "525235",
-            "FieldName": "Delegate Price",
-            "FieldLabel": "$20",
+            "FieldName": "Free to View",
+            "FieldLabel": "",
             "DataType": ""
           }
         ],
         "PodcastUrl": "http://itunes.com/rss",
-        "VodcastUrl": "http://itunes.com/rss"
+        "VodcastUrl": "http://itunes.com/rss",
+        "buttonLabel": "Watch Now"
       }
     },
     {
@@ -166,7 +165,6 @@
         "ThumbnailUrl": "http://fillmurray.com/301/169",
         "Title": "Solving problems that Matter with future-focused learning",
         "Description": "Lee Crockett, President, Global Digital Citizen Foundation",
-        "Cost": 20.95,
         "PlayUrl": "http://play.me",
         "Duration": 31.24,
         "Presenter": "Anthony England",
@@ -219,7 +217,6 @@
         "ThumbnailUrl": "http://fillmurray.com/302/185",
         "Title": "A matter of difference: How to foster Inclusion",
         "Description": "Najla Turk, Diversity and Inclusion Consultant, ConnEQt",
-        "Cost": 20.95,
         "PlayUrl": "http://play.me",
         "Duration": 31.24,
         "Presenter": "Anthony England",
@@ -272,7 +269,6 @@
           "ThumbnailUrl": "http://fillmurray.com/350/265",
           "Title": "What is inevitable about the future UTS Library?",
           "Description": "Mal Booth, University Librarian, UTS",
-          "Cost": 20.95,
           "PlayUrl": "http://play.me",
           "Duration": 31.24,
           "Presenter": "Anthony England",
@@ -325,7 +321,6 @@
           "ThumbnailUrl": "http://fillmurray.com/330/264",
           "Title": "Panel discussion: What does the future hold for the workforce learning profession?",
           "Description": "EduTECH 2017",
-          "Cost": 20.95,
           "PlayUrl": "http://play.me",
           "Duration": 31.24,
           "Presenter": "Anthony England",

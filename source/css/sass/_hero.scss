@@ -1,0 +1,21 @@
+.hero-details {
+  display: flex;
+  align-items: flex-end;
+  padding: $spacing+rem;
+}
+
+.hero-details-text {
+  flex: 1;
+  margin-left: $spacing+rem;
+}
+
+.hero-heading {
+  font-size: 2rem;
+  line-height: 1.1;
+  margin: 0;
+  color: $color-primary;
+}
+
+.hero-subheading {
+  margin-bottom: $spacing/2+rem;
+}

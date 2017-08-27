@@ -1,11 +1,26 @@
 {
+  "colors": [
+    {
+      "label": "$color-primary",
+      "color": "#0CA8A0"
+    },
+    {
+      "label": "$color-text",
+      "color": "#4A4A4A"
+    },
+    {
+      "label": "$color-text-light",
+      "color": "#9B9B9B"
+    }
+  ],
+  "cta": "button",
   "catalogue_item": {
     "id": "323414124",
     "CatalogueId": "124114141",
     "ThumbnailUrl": "http://fillmurray.com/301/168",
     "Title": "Physical education: under prioritised and our children pay the price",
     "Description": "Anthony England, Director - Innovative Technologies, Pymble Ladies' College",
-    "Cost": 20.95,
+    "Cost": "$20.95",
     "PlayUrl": "http://play.me",
     "Duration": 31.24,
     "Presenter": "Anthony England",
@@ -42,7 +57,8 @@
         "DataType": ""
       }],
       "PodcastUrl": "http://itunes.com/rss",
-      "VodcastUrl": "http://itunes.com/rss"
+      "VodcastUrl": "http://itunes.com/rss",
+      "buttonLabel": "Add to Cart"
   },
   "preentation_status": [
     "NotPurchased",
