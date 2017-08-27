@@ -1,0 +1,35 @@
+<div class="card">
+  <div class="card-header">
+    <div class="card-image">
+      <img src="{{ catalogue_item.ThumbnailUrl }}" alt="">
+      <div class="card-image-overlay">
+        <div class="card-price">
+        <span class="h2">
+          ${{catalogue_item.Cost}}
+        </span>
+      </div>
+        <ul class="list--inline">
+          {{#catalogue_item.CustomFields}}
+          <li class="label">{{FieldName}} {{FieldLabel}}</li>
+          {{/catalogue_item.CustomFields}}
+        </ul>
+      </div>
+      <time class="card-duration">
+          {{ catalogue_item.Duration }}
+      </time>
+    </div>
+  </div>
+  <div class="card-body">
+    <h2 class="card-heading">{{catalogue_item.Title}}</h2>
+    <h4 class="card-subheading">{{catalogue_item.Description}}</h4>
+    <time class="card-date">
+      {{catalogue_item.RecordDate}}
+    </time>
+  </div>
+  <div class="card-footer">
+    <div class="card-footer-left">
+      <a href="" class="button tiny">Add to Cart</a>
+    </div>
+    <div class="card-footer-right"></div>
+  </div>
+</div>

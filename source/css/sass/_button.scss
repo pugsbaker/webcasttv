@@ -1,0 +1,10 @@
+//foundation config
+$button-margin: 0;
+$button-radius: 3px;
+
+@include foundation-button;
+
+.button {
+  font-weight: bold;
+  text-decoration: none;
+}

@@ -1,75 +1,74 @@
 {
-  "key": "value",
-  "key2": "use this for variables you want to load globally",
-  "title": "Nullizzle shizznit velizzle, hizzle, suscipit own yo', gravida vizzle, arcu.",
-  "img": {
-    "avatar": {
-      "src": "http://placeimg.com/100/100/people",
-      "alt": "Avatar"
-    },
-    "square": {
-      "src": "http://placeimg.com/300/300/nature",
-      "alt": "Square"
-    },
-    "rectangle": {
-      "src": "http://placeimg.com/400/300/tech",
-      "alt": "Rectangle"
-    },
-    "landscape-4x3": {
-      "src": "http://placeimg.com/400/300/tech",
-      "alt": "4x3 Image"
-    },
-    "landscape-16x9": {
-      "src": "http://placeimg.com/640/360/tech",
-      "alt": "16x9 Image"
-    }
+  "catalogue_item": {
+    "id": "323414124",
+    "CatalogueId": "124114141",
+    "ThumbnailUrl": "http://fillmurray.com/301/168",
+    "Title": "Physical education: under prioritised and our children pay the price",
+    "Description": "Anthony England, Director - Innovative Technologies, Pymble Ladies' College",
+    "Cost": 20.95,
+    "PlayUrl": "http://play.me",
+    "Duration": 31.24,
+    "Presenter": "Anthony England",
+    "RecordDate": "9/06/2017",
+    "Timezone": "AUSEDT",
+    "Status": "AddedToCart",
+    "Type": "CatalogueItem",
+    "IsInPlaylist": true,
+    "Presenters" : [{
+      "id": "23235235",
+      "MediaSiteId": "525235",
+      "Prefix": "Mr",
+      "FirstName": "Anthony",
+      "MiddleName": "",
+      "LastName": "England",
+      "Email": "a@email.com.au",
+      "BioUrl": "http://bio.com",
+      "AdditionalInfo": "",
+      "DisplayName": "",
+      "Order": 1,
+      "ImageUrl": "http://fillmurray.com/150/150"
+    }],
+      "Tags": [{
+        "id" :"42324",
+        "MediaSiteId": "525235",
+        "Tag": "this is a tag",
+        "DomainId": "525235"
+      }],
+      "CustomFields": [{
+        "FieldDefinitionId" :"42324",
+        "MediaSiteId": "525235",
+        "FieldName": "Delegate Price",
+        "FieldLabel": "$20",
+        "DataType": ""
+      }],
+      "PodcastUrl": "http://itunes.com/rss",
+      "VodcastUrl": "http://itunes.com/rss"
   },
-  "headline": {
-    "short": "Lorizzle pimpin' dolizzle sit amet I",
-    "medium": "Rizzle adipiscing elizzle. Nullam sapien velizzle, shit volutpizzle, my"
-  },
-  "excerpt": {
-    "short": "Shizz fo shizzle mah nizzle fo rizzle, mah home g-dizzle, gravida vizzle, arcu. Pellentesque crunk tortizzle. Sed erizzle. Black izzle sheezy telliv.",
-    "medium": "Izzle crazy tempizzle sizzle. We gonna chung gangsta get down get down fo shizzle turpizzle. Away break it down black. Pellentesque bling bling rhoncus fo shizzle. In hac the bizzle platea dictumst. Black dapibizzle. Crackalackin.",
-    "long": "Curabitizzle fo shizzle diam quizzle nisi nizzle mollizzle. Suspendisse boofron. Morbi odio. Sure pizzle. Crazy orci. Shut the shizzle up maurizzle get down get down, check out this a, go to hizzle sit amizzle, malesuada izzle, pede. Pellentesque gravida. Vestibulizzle check it out mi, volutpat izzle, shiz sed, shiznit sempizzle, da bomb. Funky fresh in ipsum. Da bomb volutpat felis vizzle daahng dawg. Crizzle quis dope izzle fo shizzle my ni."
-  },
-  "description": "Fizzle crazy tortor. Sed rizzle. Ass pimpin' dolor dapibizzle turpis tempizzle fo shizzle my nizzle. Maurizzle pellentesque its fo rizzle izzle turpis. Get down get down we gonna chung nizzle. Shizzlin dizzle eleifend rhoncizzle break it down. In yo ghetto platea dictumst. Bling bling dapibizzle. Curabitur break yo neck, yall fo, pretizzle eu, go to hizzle dope, own yo' vitae, nunc. Bizzle suscipizzle. Ass semper velit sizzle fo.",
-  "url": "http://lorizzle.nl/",
-  "name": {
-    "first": "Junius",
-    "firsti": "J",
-    "middle": "Marius",
-    "middlei": "M",
-    "last": "Koolen",
-    "lasti": "K"
-  },
-  "year": {
-    "long": "2013",
-    "short": "13"
-  },
-  "month": {
-    "long": "January",
-    "short": "Jan",
-    "digit": "01"
-  },
-  "dayofweek": {
-    "long": "Sunday",
-    "short": "Sun"
-  },
-  "day": {
-    "long": "01",
-    "short": "1",
-    "ordinal": "st"
-  },
-  "hour": {
-    "long": "06",
-    "short": "6",
-    "military": "06",
-    "ampm": "am"
-  },
-  "minute": {
-    "long": "20",
-    "short": "20"
-  },
-  "seconds": "31"
+  "preentation_status": [
+    "NotPurchased",
+    "Locked",
+    "AddedToCart",
+    "Watch",
+    "MemberPackage",
+    "Playlist"
+  ],
+  "presentation_type": [
+    "CatalogueItem",
+    "FolderItem",
+    "PurchasedItem"
+  ],
+  "presentation_presenter": {
+    "id": "23235235",
+    "MediaSiteId": "525235",
+    "Prefix": "Mr",
+    "FirstName": "Anthony",
+    "MiddleName": "",
+    "LastName": "England",
+    "Email": "a@email.com.au",
+    "BioUrl": "http://bio.com",
+    "AdditionalInfo": "",
+    "DisplayName": "",
+    "Order": 1,
+    "ImageUrl": "http://fillmurray.com/150/150"
+  }
 }

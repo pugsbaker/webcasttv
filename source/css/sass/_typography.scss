@@ -1,0 +1,45 @@
+$font-stack-heading: "proxima-nova", helvetica, arial, sans-serif;
+$font-stack-body: "proxima-nova", helvetica, arial, sans-serif;
+
+html {
+  font-family: $font-stack-body;
+  color: $color-text;
+}
+
+p, li, td {
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0.5em 0;
+  word-break: break-all;
+  word-break: break-word;
+}
+
+h1, .h1 {
+  font-size: 1.5em;
+  line-height: 1.2;
+  font-weight: 800;
+  margin-bottom: 1em;
+}
+
+
+h2, .h2 {
+  font-size: 1.4em;
+  line-height: 1.2;
+  font-weight: 800;
+  margin-bottom: 0.5em;
+  margin-top: 1.5em;
+}
+
+h3, .h3 {
+  font-size: 1.2em;
+  line-height: 1.2;
+  font-weight: 800;
+  margin: 0;
+  margin-top: 0.8em;
+}
+
+h4, .h4 {
+  font-size: 1em;
+  line-height: 1.2;
+  font-weight: 400;
+}
