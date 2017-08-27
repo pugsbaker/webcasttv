@@ -1,0 +1,23 @@
+<div class="card--overlay">
+  <div class="card-image">
+    <img src="{{ catalogue_item.ThumbnailUrl }}" alt="">
+    <div class="card-image-overlay">
+      <div class="card-price">
+        <span class="h2">
+          {{catalogue_item.Cost}}
+        </span>
+      </div>
+      <ul class="list--inline">
+        {{#catalogue_item.CustomFields}}
+        <li class="label">{{FieldName}} {{FieldLabel}}</li>
+        {{/catalogue_item.CustomFields}}
+      </ul>
+    </div>
+    <div class="card-image-overlay--bottom">
+      <div class="card-details">
+        <h3 class="card-heading">{{ catalogue_item.Title }}</h3>
+        <h4 class="card-subheading">{{ catalogue_item.Presenter }}</h4>
+      </div>
+    </div>
+  </div>
+</div>
