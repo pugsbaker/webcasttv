@@ -1,6 +1,8 @@
 $color-background-light: #f6f6f6;
+$color-background: #EDEDED;
 $color-text: #4A4A4A;
 $color-text-light: #9B9B9B;
+$color-border: #D4D4D4;
 $color-primary: #0CA8A0;
 $color-white: #fff;
 $spacing: 1;
@@ -13,4 +15,14 @@ $foundation-palette: (
   alert: #ec5840,
 );
 
+
+@mixin inline-list() {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  > li {
+    display: inline-block;
+  }
+}
 
