@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1503826025712,
+  "timestamp": 1504609096843,
   "graph": {
     "options": {
       "directed": true,
@@ -103,17 +103,37 @@
       {
         "v": "01-molecules/00-cards/01-card--overlay.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-01-highlight-00-highlight-reel/02-organisms-01-highlight-00-highlight-reel.rendered.html",
+          "lineagePattern": "organisms-highlight-reel"
         }
       },
       {
         "v": "01-molecules/01-hero/00-hero-tile.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-01-highlight-00-highlight-reel/02-organisms-01-highlight-00-highlight-reel.rendered.html",
+          "lineagePattern": "organisms-highlight-reel"
         }
       },
       {
         "v": "02-organisms/00-lists/00-card-list.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-templates-00-main/02-templates-00-main.rendered.html",
+          "lineagePattern": "templates-main"
+        }
+      },
+      {
+        "v": "02-organisms/01-highlight/00-highlight-reel.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-templates-00-main/02-templates-00-main.rendered.html",
+          "lineagePattern": "templates-main"
+        }
+      },
+      {
+        "v": "02-templates/00-main.mustache",
         "value": {
           "compileState": "clean"
         }
@@ -140,6 +160,26 @@
       {
         "v": "02-organisms/00-lists/00-card-list.mustache",
         "w": "01-molecules/00-cards/00-full-card.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/01-highlight/00-highlight-reel.mustache",
+        "w": "01-molecules/01-hero/00-hero-tile.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/01-highlight/00-highlight-reel.mustache",
+        "w": "01-molecules/00-cards/01-card--overlay.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-templates/00-main.mustache",
+        "w": "02-organisms/01-highlight/00-highlight-reel.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-templates/00-main.mustache",
+        "w": "02-organisms/00-lists/00-card-list.mustache",
         "value": {}
       }
     ]
