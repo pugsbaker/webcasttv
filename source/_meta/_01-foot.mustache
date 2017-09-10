@@ -6,10 +6,14 @@
   integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg="
   crossorigin="anonymous"></script>
   <script>
-    $('[data-slider]').click(function() {
-      console.log('open');
-      $(this).parent('.card').find('.card-slider').toggleClass('is-open');
+    $('[data-toggle]').click(function() {
+      console.log('open', $(this).closest('.card'));
+      $(this).closest('.card').find('.card-slider').toggleClass('is-open');
     })
+    $('.card-slider').click(function() {
+      $(this).toggleClass('is-open');
+    })
+
   </script>
   </body>
 </html>
