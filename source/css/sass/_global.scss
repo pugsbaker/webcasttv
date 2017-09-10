@@ -1,3 +1,4 @@
+@include foundation-global-styles;
 html {
   box-sizing: border-box;
   word-break: break-word;
@@ -26,87 +27,37 @@ body {
   background: $color-background;
 }
 
+ul {
+  margin: 0;
+}
+
 .section {
-  padding: 3rem;
+  padding: 1rem;
   max-width: 90rem;
   margin: 0 auto;
+
+  @include breakpoint(medium) {
+    padding: 3rem;
+  }
 }
 
 .main-header {
-  padding: 3rem 3rem 0;
+  padding: 3rem 1rem 0;
   max-width: 90rem;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+
+  @include breakpoint(medium) {
+    padding: 3rem 3rem 0;
+  }
 }
 
 .masthead {
   width: 200px;
 }
 
-.nav-main {
-  flex: 1;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  >li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-  }
-}
-
-.nav-main-link {
-  display: block;
-  padding: 0.5rem 1rem;
-  color: $color-text;
-  text-decoration: none;
-  font-weight: bold;
-  position: relative;
-
-  
-
-  &:after {
-    content: "";
-    position: absolute;
-    background: $color-primary;
-    height: 4px;
-    left: 1rem;
-    right: 1rem;
-    bottom:0.25rem;
-    transform: scale(0);
-    transition: 0.3s transform ease;
-  }
-
-  &:hover:after {
-    transform: scale(1);
-  }
-}
-$input-margin: 0;
-@include foundation-form-select;
-@include foundation-form-text;
-
-.filter-list {
-  @include inline-list;
+.action-bar {
   display: flex;
-  flex-wrap: wrap;
-
-  input {
-    margin: 0;
-    width: 100%;
-  }
-  select {
-    width: 100%;
-  }
-}
-
-.filter-list-item {
-  flex: 1;
-  margin: 0;
-  min-width: 200px;
-
-  &:not(:last-child) {
-    padding: 0 1rem 0 0;
-  }
-  
 }

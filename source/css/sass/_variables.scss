@@ -1,5 +1,6 @@
 $color-background-light: #f6f6f6;
 $color-background: #EDEDED;
+$color-background-dark: darken($color-background, 10);
 $color-text: #4A4A4A;
 $color-text-light: #9B9B9B;
 $color-border: #D4D4D4;
@@ -14,6 +15,9 @@ $foundation-palette: (
   warning: #ffae00,
   alert: #ec5840,
 );
+
+$header-font-family: "proxima-nova", helvetica, arial, sans-serif;
+$body-font-family: "proxima-nova", helvetica, arial, sans-serif;
 
 
 @mixin inline-list() {

@@ -17,13 +17,15 @@
 </section>
 <section class="section">
   <div class="action-bar">
+    <div class="action-bar-left">
+      <input type="search" id="searchInput" placeholder="Search">
+    </div>
+  </div>
+  <div class="action-bar"> 
     <ul class="filter-list">
       <li class="filter-list-item">
-        <input type="search" id="searchInput" placeholder="Search" >
-      </li>
-      <li class="filter-list-item">
         <select id="slSubCatalogues" name="slSubCatalogues" data-filter-multiple="true">
-          <option value="-1">Conferences</option>
+          <option value="-1">Expos</option>
         </select>
       </li>
       <li class="filter-list-item">
@@ -33,16 +35,29 @@
       </li>
       <li class="filter-list-item">
         <select id="slSubCatalogues" name="slSubCatalogues" data-filter-multiple="true">
-          <option value="-1">Conferences</option>
+          <option value="-1">Types</option>
         </select>
       </li>
-      <li class="filter-list-item">
+       <li class="filter-list-item">
         <select id="slSubCatalogues" name="slSubCatalogues" data-filter-multiple="true">
-          <option value="-1">Conferences</option>
+          <option value="-1">Date: Most Recent</option>
         </select>
       </li>
     </ul>
-   
+    </div>
+  <div class="action-bar">
+    <ul class="pagination" role="navigation" aria-label="Pagination">
+      <li class="pagination-previous disabled">Previous <span class="show-for-sr">page</span></li>
+      <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+      <li><a href="#" aria-label="Page 2">2</a></li>
+      <li><a href="#" aria-label="Page 3">3</a></li>
+      <li><a href="#" aria-label="Page 4">4</a></li>
+      <li class="ellipsis" aria-hidden="true"></li>
+      <li><a href="#" aria-label="Page 12">12</a></li>
+      <li><a href="#" aria-label="Page 13">13</a></li>
+      <li class="pagination-next"><a href="#" aria-label="Next page">Next <span class="show-for-sr">page</span></a></li>
+    </ul>
+    
   </div>
   {{> organisms-card-list }}
 </section>
