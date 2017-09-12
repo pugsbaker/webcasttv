@@ -31,7 +31,7 @@ ul {
   margin: 0;
 }
 
-.section {
+.content {
   padding: 1rem;
   max-width: 90rem;
   margin: 0 auto;
@@ -60,4 +60,17 @@ ul {
 
 .action-bar {
   display: flex;
+  padding-top: 1rem;
+
+  & + .action-bar {
+    padding-top: 0;
+  }
+}
+
+.action-bar-left {
+  flex: 1;
+}
+
+.action-bar-center {
+  margin: auto;
 }
