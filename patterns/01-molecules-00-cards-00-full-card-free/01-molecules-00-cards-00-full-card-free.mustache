@@ -1,4 +1,4 @@
-<div class="card">
+<div class="card t-background-light">
   <div class="card-header">
     <div class="card-image">
       <img src="{{ catalogue_item.ThumbnailUrl }}" alt="">
@@ -17,9 +17,9 @@
     </div>
   </div>
   <div class="card-body">
-    <h2 class="card-heading">{{catalogue_item.Title}}</h2>
-    <h4 class="card-subheading">{{catalogue_item.Description}}</h4>
-    <time class="card-date">
+    <h2 class="card-heading t-text-main">{{catalogue_item.Title}}</h2>
+    <h4 class="card-subheading t-text-secondary">{{catalogue_item.Description}}</h4>
+    <time class="card-date t-text-secondary">
       {{catalogue_item.RecordDate}}
     </time>
   </div>
