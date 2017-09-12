@@ -24,10 +24,17 @@
 </head>
 
 <body class=" t-background t-text-main">
-  <blockquote>
-    <p>A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text, and typically distinguished visually using indentation and a different typeface
-      or smaller size quotation.</p>
-  </blockquote>
+  <ul class="pagination" role="navigation" aria-label="Pagination">
+    <li class="pagination-previous disabled">Previous <span class="show-for-sr">page</span></li>
+    <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+    <li><a href="#" aria-label="Page 2">2</a></li>
+    <li><a href="#" aria-label="Page 3">3</a></li>
+    <li><a href="#" aria-label="Page 4">4</a></li>
+    <li class="ellipsis" aria-hidden="true"></li>
+    <li><a href="#" aria-label="Page 12">12</a></li>
+    <li><a href="#" aria-label="Page 13">13</a></li>
+    <li class="pagination-next"><a href="#" aria-label="Next page">Next <span class="show-for-sr">page</span></a></li>
+  </ul>
   <!--DO NOT REMOVE-->
   <script type="text/json" id="sg-pattern-data-footer" class="sg-pattern-data">
     {
@@ -41,12 +48,12 @@
       "patternLineageEExists": false,
       "patternDesc": "",
       "patternBreadcrumb": {
-        "patternType": "atoms",
-        "patternSubtype": "text"
+        "patternType": "molecules",
+        "patternSubtype": "pagination"
       },
       "patternExtension": "mustache",
-      "patternName": "Blockquote",
-      "patternPartial": "atoms-blockquote",
+      "patternName": "Pagination",
+      "patternPartial": "molecules-pagination",
       "patternState": "",
       "patternEngineName": "mustache",
       "extraOutput": {}

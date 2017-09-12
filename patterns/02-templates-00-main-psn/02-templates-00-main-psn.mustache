@@ -1,0 +1,122 @@
+<style>
+  .main-header {
+    padding-top: 0;
+  }
+
+  .t-background-nav {
+    box-shadow: 0 0.15em 0.35em 0 rgba(0, 0, 0, 0.135);
+    border-bottom: 1px solid #ccc;
+  }
+
+  .t-background-top {
+    background: #f3f3f3 url(http://publicsectornetwork.com.au/wp-content/uploads/2017/03/PSN-Banner.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .masthead {
+    padding-top: 0.5rem;
+    width: 170px;
+  }
+
+  .nav-main-link {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.085em;
+    text-transform: uppercase;
+    height: 90px;
+    padding-top: 37px;
+    color: #999;
+    font-size: 11.5px;
+  }
+
+  .nav-main-link:hover {
+    box-shadow: inset 0 4px 0 0 rgb(1, 132, 204);
+    color: hsl(0, 0%, 0%);
+  }
+</style>
+<header class="t-background-nav">
+  <div class="main-header ">
+    <div class="masthead">
+      <img src="https://publicsectornetwork.com.au/wp-content/uploads/2017/01/PSN_Logo.jpg" alt="" class="logo">
+    </div>
+    <nav>
+      <ul class="nav-main">
+        <li><a class="nav-main-link" href="">help</a></li>
+        <li><a class="nav-main-link" href="">cart</a></li>
+        <li><a class="nav-main-link" href="">register</a></li>
+        <li><a class="nav-main-link" href="">log in</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="section t-background-top">
+  <div class="content">
+    {{> organisms-highlight-reel }}
+  </div>
+</section>
+<section class="section">
+  <div class="content">
+    <div class="action-bar">
+      <div class="action-bar-left">
+        <ul class="filter-list">
+          <li class="filter-list-item filter-list-item--long">
+            <input type="search" id="searchInput" placeholder="Search">
+          </li>
+          <li class="filter-list-item">
+            <select id="slSubCatalogues" name="slSubCatalogues" data-filter-multiple="true">
+              <option value="-1">Expos</option>
+            </select>
+          </li>
+          <li class="filter-list-item">
+            <select id="slSubCatalogues" name="slSubCatalogues" data-filter-multiple="true">
+              <option value="-1">Conferences</option>
+            </select>
+          </li>
+          <li class="filter-list-item">
+            <select id="slSubCatalogues" name="slSubCatalogues" data-filter-multiple="true">
+              <option value="-1">Types</option>
+            </select>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="action-bar">
+      <div class="action-bar-left">
+        <ul class="pagination" role="navigation" aria-label="Pagination">
+          <li class="pagination-previous disabled">Previous <span class="show-for-sr">page</span></li>
+          <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+          <li><a href="#" aria-label="Page 2">2</a></li>
+          <li><a href="#" aria-label="Page 3">3</a></li>
+          <li><a href="#" aria-label="Page 4">4</a></li>
+          <li class="ellipsis" aria-hidden="true"></li>
+          <li><a href="#" aria-label="Page 12">12</a></li>
+          <li><a href="#" aria-label="Page 13">13</a></li>
+          <li class="pagination-next"><a href="#" aria-label="Next page">Next <span class="show-for-sr">page</span></a></li>
+        </ul>
+      </div>
+      <div class="action-bar-right">
+        <select id="slSubCatalogues" name="slSubCatalogues" data-filter-multiple="true">
+            <option value="-1">Date: Most Recent</option>
+          </select>
+      </div>
+    </div>
+    {{> organisms-card-list }}
+    <div class="action-bar">
+      <div class="action-bar-center">
+        <ul class="pagination" role="navigation" aria-label="Pagination">
+          <li class="pagination-previous disabled">Previous <span class="show-for-sr">page</span></li>
+          <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+          <li><a href="#" aria-label="Page 2">2</a></li>
+          <li><a href="#" aria-label="Page 3">3</a></li>
+          <li><a href="#" aria-label="Page 4">4</a></li>
+          <li class="ellipsis" aria-hidden="true"></li>
+          <li><a href="#" aria-label="Page 12">12</a></li>
+          <li><a href="#" aria-label="Page 13">13</a></li>
+          <li class="pagination-next"><a href="#" aria-label="Next page">Next <span class="show-for-sr">page</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

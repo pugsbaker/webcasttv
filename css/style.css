@@ -1359,7 +1359,8 @@ a.button:hover, a.button:focus {
     font-size: 1rem; } }
 
 .card--overlay .card-subheading {
-  font-weight: 800; }
+  font-weight: 800;
+  margin-bottom: 0; }
 
 .card-subheading {
   font-size: 0.7rem;
@@ -1730,6 +1731,9 @@ a.button:hover, a.button:focus {
 
 .t-background-top {
   background-color: #0CA8A0; }
+
+.t-background-nav {
+  background-color: #fff; }
 
 .t-background-light {
   background-color: #f6f6f6; }
